@@ -1,0 +1,110 @@
+
+ff: parsing domain file
+domain 'PLANIFICADOR_EJERCICIOS' defined
+ ... done.
+ff: parsing problem file
+problem 'JP1' defined
+ ... done.
+
+
+warning: var quantification of ?PREPARADOR overwrites previous declaration
+
+
+no metric specified. plan length assumed.
+
+checking for cyclic := effects --- OK.
+
+ff: search configuration is EHC, if that fails then  best-first on 1*g(s) + 5*h(s) where
+    metric is  plan length
+
+Cueing down from goal distance:   14 into depth [1]
+                                  13            [1]
+                                  12            [1]
+                                  11            [1]
+                                  10            [1]
+                                   9            [1]
+                                   8            [1][2][3][4][5][6][7][8]
+                                   7            [1][2][3][4][5][6][7][8]
+                                   6            [1][2][3][4][5][6][7][8]
+                                   5            [1][2][3][4][5][6][7][8]
+                                   4            [1][2][3][4][5][6][7][8]
+                                   3            [1][2][3][4][5][6][7][8]
+                                   2            [1][2][3][4][5][6][7][8]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+
+step    0: HACER_EJERCICIO EJERCICIO3 DIA1 NIVEL0 NIVEL1
+        1: PREPARAR_EJERCICIO EJERCICIO4 EJERCICIO9 DIA1
+        2: HACER_EJERCICIO EJERCICIO4 DIA1 NIVEL0 NIVEL1
+        3: PREPARAR_EJERCICIO EJERCICIO8 EJERCICIO9 DIA1
+        4: HACER_EJERCICIO EJERCICIO8 DIA1 NIVEL0 NIVEL1
+        5: PREPARAR_EJERCICIO EJERCICIO9 EJERCICIO9 DIA1
+        6: HACER_EJERCICIO EJERCICIO9 DIA1 NIVEL0 NIVEL1
+        7: CAMBIAR_DIA DIA1 DIA2
+        8: HACER_EJERCICIO EJERCICIO3 DIA2 NIVEL1 NIVEL2
+        9: PREPARAR_EJERCICIO EJERCICIO4 EJERCICIO9 DIA2
+       10: HACER_EJERCICIO EJERCICIO4 DIA2 NIVEL1 NIVEL2
+       11: PREPARAR_EJERCICIO EJERCICIO8 EJERCICIO9 DIA2
+       12: HACER_EJERCICIO EJERCICIO8 DIA2 NIVEL1 NIVEL2
+       13: PREPARAR_EJERCICIO EJERCICIO9 EJERCICIO9 DIA2
+       14: HACER_EJERCICIO EJERCICIO9 DIA2 NIVEL1 NIVEL2
+       15: CAMBIAR_DIA DIA2 DIA3
+       16: HACER_EJERCICIO EJERCICIO3 DIA3 NIVEL2 NIVEL3
+       17: PREPARAR_EJERCICIO EJERCICIO4 EJERCICIO9 DIA3
+       18: HACER_EJERCICIO EJERCICIO4 DIA3 NIVEL2 NIVEL3
+       19: PREPARAR_EJERCICIO EJERCICIO8 EJERCICIO9 DIA3
+       20: HACER_EJERCICIO EJERCICIO8 DIA3 NIVEL2 NIVEL3
+       21: PREPARAR_EJERCICIO EJERCICIO9 EJERCICIO9 DIA3
+       22: HACER_EJERCICIO EJERCICIO9 DIA3 NIVEL2 NIVEL3
+       23: CAMBIAR_DIA DIA3 DIA4
+       24: HACER_EJERCICIO EJERCICIO3 DIA4 NIVEL3 NIVEL4
+       25: PREPARAR_EJERCICIO EJERCICIO4 EJERCICIO9 DIA4
+       26: HACER_EJERCICIO EJERCICIO4 DIA4 NIVEL3 NIVEL4
+       27: PREPARAR_EJERCICIO EJERCICIO8 EJERCICIO9 DIA4
+       28: HACER_EJERCICIO EJERCICIO8 DIA4 NIVEL3 NIVEL4
+       29: PREPARAR_EJERCICIO EJERCICIO9 EJERCICIO9 DIA4
+       30: HACER_EJERCICIO EJERCICIO9 DIA4 NIVEL3 NIVEL4
+       31: CAMBIAR_DIA DIA4 DIA5
+       32: HACER_EJERCICIO EJERCICIO3 DIA5 NIVEL4 NIVEL5
+       33: PREPARAR_EJERCICIO EJERCICIO4 EJERCICIO9 DIA5
+       34: HACER_EJERCICIO EJERCICIO4 DIA5 NIVEL4 NIVEL5
+       35: PREPARAR_EJERCICIO EJERCICIO8 EJERCICIO9 DIA5
+       36: HACER_EJERCICIO EJERCICIO8 DIA5 NIVEL4 NIVEL5
+       37: PREPARAR_EJERCICIO EJERCICIO9 EJERCICIO9 DIA5
+       38: HACER_EJERCICIO EJERCICIO9 DIA5 NIVEL4 NIVEL5
+       39: CAMBIAR_DIA DIA5 DIA6
+       40: HACER_EJERCICIO EJERCICIO3 DIA6 NIVEL5 NIVEL6
+       41: PREPARAR_EJERCICIO EJERCICIO4 EJERCICIO9 DIA6
+       42: HACER_EJERCICIO EJERCICIO4 DIA6 NIVEL5 NIVEL6
+       43: PREPARAR_EJERCICIO EJERCICIO8 EJERCICIO9 DIA6
+       44: HACER_EJERCICIO EJERCICIO8 DIA6 NIVEL5 NIVEL6
+       45: PREPARAR_EJERCICIO EJERCICIO9 EJERCICIO9 DIA6
+       46: HACER_EJERCICIO EJERCICIO9 DIA6 NIVEL5 NIVEL6
+       47: CAMBIAR_DIA DIA6 DIA7
+       48: HACER_EJERCICIO EJERCICIO3 DIA7 NIVEL6 NIVEL7
+       49: PREPARAR_EJERCICIO EJERCICIO4 EJERCICIO9 DIA7
+       50: HACER_EJERCICIO EJERCICIO4 DIA7 NIVEL6 NIVEL7
+       51: PREPARAR_EJERCICIO EJERCICIO8 EJERCICIO9 DIA7
+       52: HACER_EJERCICIO EJERCICIO8 DIA7 NIVEL6 NIVEL7
+       53: PREPARAR_EJERCICIO EJERCICIO9 EJERCICIO9 DIA7
+       54: HACER_EJERCICIO EJERCICIO9 DIA7 NIVEL6 NIVEL7
+       55: CAMBIAR_DIA DIA7 DIA8
+       56: HACER_EJERCICIO EJERCICIO3 DIA8 NIVEL7 NIVEL8
+       57: PREPARAR_EJERCICIO EJERCICIO4 EJERCICIO9 DIA8
+       58: HACER_EJERCICIO EJERCICIO4 DIA8 NIVEL7 NIVEL8
+       59: PREPARAR_EJERCICIO EJERCICIO8 EJERCICIO9 DIA8
+       60: HACER_EJERCICIO EJERCICIO8 DIA8 NIVEL7 NIVEL8
+       61: PREPARAR_EJERCICIO EJERCICIO9 EJERCICIO9 DIA8
+       62: HACER_EJERCICIO EJERCICIO9 DIA8 NIVEL7 NIVEL8
+     
+
+time spent:    0.01 seconds instantiating 14 easy, 1260 hard action templates
+               0.00 seconds reachability analysis, yielding 555 facts and 1274 actions
+               0.00 seconds creating final representation with 456 relevant facts, 0 relevant fluents
+               0.00 seconds computing LNF
+               0.00 seconds building connectivity graph
+               0.01 seconds searching, evaluating 169 states, to a max depth of 8
+               0.02 seconds total time
+
